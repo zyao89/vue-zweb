@@ -1,5 +1,5 @@
 # vue-zweb
-这是一个Vue插件，与ZWebView组件配合使用。
+这是一个Vue插件，与 [ZWebView](https://github.com/zyao89/ZWebView) 组件配合使用。
 
 ### For Example:
 
