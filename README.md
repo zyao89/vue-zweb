@@ -3,7 +3,7 @@
 
 This is vue-zweb which works only with Vue 2.0+.
 
-### For Example:
+## For Example:
 
 1. Development Setup。
 ```sh
@@ -39,7 +39,7 @@ export default {
 </script>
 ```
 
-### License
+## License
 
 [MIT](http://opensource.org/licenses/MIT)
 
