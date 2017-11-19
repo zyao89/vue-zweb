@@ -1,9 +1,11 @@
 # vue-zweb
 这是一个Vue插件，与 [ZWebView](https://github.com/zyao89/ZWebView) 组件配合使用。
 
+This is vue-zweb which works only with Vue 2.0+.
+
 ### For Example:
 
-1. 安装。
+1. Development Setup。
 ```sh
 npm install vue-zweb --save
 ```
@@ -14,13 +16,18 @@ import VueZWeb from 'vue-zweb';
 Vue.use(VueZWeb);
 ```
 
+* 或者，在引入Vue后，直接引用
+```html
+<script type="text/javascript" src="vue-zweb/dist/vue-zweb.min.js"></script>
+```
+
 3. Vue模版中当作生命周期使用。
 ```javascript
 <template>
   ...
 </template>
 
-<script>0
+<script>
 export default {
   name: "ZWebSDK",
   zWebReady() {
@@ -32,4 +39,8 @@ export default {
 </script>
 ```
 
+### License
 
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2017 Zyao89

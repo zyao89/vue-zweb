@@ -1,6 +1,6 @@
 {
   "name": "vue-zweb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vue plug-in that works with ZWebView.",
   "main": "index.js",
   "scripts": {
