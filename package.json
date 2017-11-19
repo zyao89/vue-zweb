@@ -1,0 +1,36 @@
+{
+  "name": "vue-zweb",
+  "version": "1.0.1",
+  "description": "A Vue plug-in that works with ZWebView.",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"VueZWeb is building...\" && webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyao89/vue-zweb.git"
+  },
+  "keywords": [
+    "vue-zweb",
+    "ZWeb",
+    "ZWebView"
+  ],
+  "author": "Zyao89",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyao89/vue-zweb/issues"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1"
+  }
+}
